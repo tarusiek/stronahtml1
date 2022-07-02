@@ -1,0 +1,152 @@
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>stronka2</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/c42d1cc7c1.js" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+
+    </head>
+    <body>
+        
+ 
+        <header class="header">
+            <div class="max_content medium">
+                <a href="#" class="header_logo" onClick="document.getElementById('start_page').scrollIntoView();">
+                    <img src="./assets/images/logo_tarusiek.png" width="34" height="34" alt="Homepage">
+                </a>
+            </div>
+        </header>
+
+
+        <section class="main_page_about" id="start_page">
+            <div class="main_text">
+                <h1>Web Developer who create<br>great websites<span class="blinking_dot_animation">.</span></h1>
+                <p>I make a lot of cool websites. I deal with programming on a daily basis. If you want to support me, feel free to give me a positive opinion! Thanks for all!</p>
+            </div>
+
+            <div class="whoami">
+                
+                <div class="whoami_paragraphs">
+                    <h2>ABOUT ME</h2>
+                    <h3>Michał Tarka</h3>
+                    <p>Hi! I'm Michał Tarka. I am a front-end and back-end developer. I am 17 years old and I am attending a technical college. I live in a small town in Poland. My passion is fishing and cycling. <br><br>From a young age, I want to deepen my knowledge in the field of electronics and computer networks. This is a very interesting topic that I recommend everyone to explore. If you want to learn something about electronics, please visit my YouTube channel @elektrotarus. From there you will surely learn a lot of interesting facts about electricity or the Internet. <br><br>If you like my websites that I create, I invite you to contact me directly. The contact form is at the bottom of the page.</p>
+                </div>
+
+                <img src="./assets/images/tarusiek_photo.jpg">
+                
+            </div>
+        </section>
+
+        <section class="my_projects">
+            <h2>MY PROJECTS</h2>
+            <h3>Some of my projects:</h3>
+            <div class="projects_grid">
+                <div class="click_1_project" onclick="open_1_project()">
+                    <img src="./assets/images/strona1.jpeg">
+                </div>
+                
+                <div class="click_2_project" onclick="open_2_project()">
+                    <img src="./assets/images/strona2.webp">
+                </div>
+
+                <div class="click_3_project" onclick="open_3_project()">
+                    <img src="./assets/images/strona3.jpg">
+                </div>
+
+                <div class="click_4_project" onclick="open_4_project()">
+                    <img src="./assets/images/strona4.jpeg">
+                </div>
+
+                <div class="click_5_project" onclick="open_5_project()">
+                    <img src="./assets/images/strona5.webp">
+                </div>
+
+                <div class="click_6_project" onclick="open_6_project()">
+                    <img src="./assets/images/strona6.webp">
+                </div>
+
+
+                
+                
+                
+            </div>
+        </section>
+
+
+        <section class="functions_site">
+            <h2>FUNCTIONS</h2>
+            <h3>Website functionality is a very important thing in IT<span class="blinking_dot_animation">.</span></h3>
+
+            <div class="functions_gallery">
+                
+                    <div class="site_speed">
+                        <svg class="svg_icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256zM256 64C238.3 64 224 78.33 224 96C224 113.7 238.3 128 256 128C273.7 128 288 113.7 288 96C288 78.33 273.7 64 256 64zM256 416C291.3 416 320 387.3 320 352C320 334.6 313.1 318.9 301.9 307.4L365.1 161.7C371.3 149.5 365.8 135.4 353.7 130C341.5 124.7 327.4 130.2 322 142.3L257.9 288C257.3 288 256.6 287.1 256 287.1C220.7 287.1 192 316.7 192 352C192 387.3 220.7 416 256 416V416zM144 112C126.3 112 112 126.3 112 144C112 161.7 126.3 176 144 176C161.7 176 176 161.7 176 144C176 126.3 161.7 112 144 112zM96 288C113.7 288 128 273.7 128 256C128 238.3 113.7 224 96 224C78.33 224 64 238.3 64 256C64 273.7 78.33 288 96 288zM416 224C398.3 224 384 238.3 384 256C384 273.7 398.3 288 416 288C433.7 288 448 273.7 448 256C448 238.3 433.7 224 416 224z"/></svg>
+                        <h4>Page speed is its most important feature. The fast side is the good side. Pages prepared by me are highly optimized.</h4>
+                    </div>
+                
+                    <div class="site_responsive">
+                        <svg class="svg_icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path d="M32 64C49.67 64 64 78.33 64 96V416C64 433.7 49.67 448 32 448C14.33 448 0 433.7 0 416V96C0 78.33 14.33 64 32 64zM246.6 137.4C259.1 149.9 259.1 170.1 246.6 182.6L205.3 224H434.7L393.4 182.6C380.9 170.1 380.9 149.9 393.4 137.4C405.9 124.9 426.1 124.9 438.6 137.4L534.6 233.4C547.1 245.9 547.1 266.1 534.6 278.6L438.6 374.6C426.1 387.1 405.9 387.1 393.4 374.6C380.9 362.1 380.9 341.9 393.4 329.4L434.7 288H205.3L246.6 329.4C259.1 341.9 259.1 362.1 246.6 374.6C234.1 387.1 213.9 387.1 201.4 374.6L105.4 278.6C92.88 266.1 92.88 245.9 105.4 233.4L201.4 137.4C213.9 124.9 234.1 124.9 246.6 137.4V137.4zM640 416C640 433.7 625.7 448 608 448C590.3 448 576 433.7 576 416V96C576 78.33 590.3 64 608 64C625.7 64 640 78.33 640 96V416z"/></svg>
+                        <h4>Responsiveness of the website is an important element. If the website is responsive, it's nice. All the pages I create are available on PC and smartphones.</h4>
+                    </div>
+                
+                    <div class="site_info">
+                        <svg class="svg_icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 512"><path d="M160 448h-32V224c0-17.69-14.33-32-32-32L32 192c-17.67 0-32 14.31-32 32s14.33 31.1 32 31.1h32v192H32c-17.67 0-32 14.31-32 32s14.33 32 32 32h128c17.67 0 32-14.31 32-32S177.7 448 160 448zM96 128c26.51 0 48-21.49 48-48S122.5 32.01 96 32.01s-48 21.49-48 48S69.49 128 96 128z"/></svg>
+                        <h4>On my pages you will find a lot of useful information that is styled in the right way to be clearly visible and pleasant to read by you.</h4>
+                    </div>
+                
+                    <div class="site_security">
+                        <svg class="svg_icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M256-.0078C260.7-.0081 265.2 1.008 269.4 2.913L457.7 82.79C479.7 92.12 496.2 113.8 496 139.1C495.5 239.2 454.7 420.7 282.4 503.2C265.7 511.1 246.3 511.1 229.6 503.2C57.25 420.7 16.49 239.2 15.1 139.1C15.87 113.8 32.32 92.12 54.3 82.79L242.7 2.913C246.8 1.008 251.4-.0081 256-.0078V-.0078z"/></svg>
+                        <h4>The websites I performs have SSL certificates that allow you to safely make purchases or provide passwords in forms.</h4>
+                    </div>
+                
+                    <div class="site_color">
+                        <svg class="svg_icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M224 0H336C362.5 0 384 21.49 384 48V256H0V48C0 21.49 21.49 0 48 0H64L96 64L128 0H160L192 64L224 0zM384 288V320C384 355.3 355.3 384 320 384H256V448C256 483.3 227.3 512 192 512C156.7 512 128 483.3 128 448V384H64C28.65 384 0 355.3 0 320V288H384zM192 464C200.8 464 208 456.8 208 448C208 439.2 200.8 432 192 432C183.2 432 176 439.2 176 448C176 456.8 183.2 464 192 464z"/></svg>
+                        <h4>Thanks to many years of experience, my pages are based on matched colors, which, thanks to their colors, give character to the website.</h4>
+                    </div>
+                
+                    <div class="site_contact">
+                        <svg class="svg_icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M512 32H64C28.65 32 0 60.65 0 96v320c0 35.35 28.65 64 64 64h448c35.35 0 64-28.65 64-64V96C576 60.65 547.3 32 512 32zM176 128c35.35 0 64 28.65 64 64s-28.65 64-64 64s-64-28.65-64-64S140.7 128 176 128zM272 384h-192C71.16 384 64 376.8 64 368C64 323.8 99.82 288 144 288h64c44.18 0 80 35.82 80 80C288 376.8 280.8 384 272 384zM496 320h-128C359.2 320 352 312.8 352 304S359.2 288 368 288h128C504.8 288 512 295.2 512 304S504.8 320 496 320zM496 256h-128C359.2 256 352 248.8 352 240S359.2 224 368 224h128C504.8 224 512 231.2 512 240S504.8 256 496 256zM496 192h-128C359.2 192 352 184.8 352 176S359.2 160 368 160h128C504.8 160 512 167.2 512 176S504.8 192 496 192z"/></svg>
+                        <h4>After you buy a site from me, you get 24/7 support for products purchased from me, and I will help you set it up.</h4>
+                    </div>
+            
+            </div>
+        </div>
+        </section>
+
+
+
+
+        <section class="contact">
+            <h2>CONTACT</h2>
+            <h3>Let's stay in touch<span class="blinking_dot_animation">.</span></h3>
+
+            <div class="contact_container">
+              <form  action="contact_form.php" method="post">
+              
+                <input type="text" id="fname" name="fname" placeholder="Your Name">
+                <input type="email" id="fmail" name="fmail" placeholder="Email Address">
+                <input type="text" id="fsubject" name="fsubject" placeholder="Subject">
+                <textarea id="fmessage" name="fmessage" placeholder="Your Message" style="height:200px" spellcheck="false" ></textarea>
+
+                <input type="submit" value="Send!">
+            
+              </form>
+            </div>
+
+            <p>All rights reserved for @tarusiekk.</p>
+        </section>
+
+        
+
+
+
+        
+        <script src="script.js" async defer></script>
+    </body>
+</html>
+
